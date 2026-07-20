@@ -17,4 +17,8 @@ This template was generated as an example for how to format and upload project c
 To get even deeper into code cleaning, check out the [Good Research Code Handbook](https://goodresearch.dev/index.html).
 
 Some notes:
-- If you are using satellite images as part of your analysis they may be too large to upload to github. In that case simply upload your code.
+- ## AI Assistance Disclosure
+Parts of this repository were developed with the assistance of artificial intelligence.
+* **Tool Used:** 
+* **Purpose:** Used for 
+* **Human Role:** All AI-generated code was reviewed, refactored, and tested by the repository author.
