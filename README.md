@@ -1,24 +1,14 @@
-# Project Title
-<img align = "left" src="https://science.nasa.gov/wp-content/uploads/2023/11/sarp-patch.jpeg?w=1280&format=webp" alt="drawing" width="200"/>Here you can put a brief description (approximately 2-3 sentence) of your time with the [NASA Student Airborne Research Program (SARP)](https://science.nasa.gov/earth-science/early-career-opportunities/student-airborne-research-program/). You might mention the year of your program or that you flew on a NASA aircraft. You could also mention which group you were in as well as your graduate or faculty mentors. All this text is optional, but it's a good way to orient someone that comes to your repository wondering what it is they are looking at. A one sentence plain language description of your project can also be a great benefit.
+# Seasonal and Land-Use Influences on Urban Heat Island Drivers: A Multi-Sensor Assessment in Gangseo, Seoul
+<img align = "left" src="https://science.nasa.gov/wp-content/uploads/2023/11/sarp-patch.jpeg?w=1280&format=webp" alt="drawing" width="200"/>This project was created as part of the[NASA Student Airborne Research Program (SARP)](https://science.nasa.gov/earth-science/early-career-opportunities/student-airborne-research-program/), Hydrology West group of 2026. Along with this project, there was the opportunity to fly on mutiple NASA Aircrafts (B200, GIII, GV) from the NASA JSC center in Houston, Texas, to take airborne data, as well taking soil moisture measurements in Austin, Texas to validate the satellite data. These measurements were not used in this project. The work done on this project spanned an 8-week time period.
 
 
 ## Abstract
-This is a great place to put your SARP presentation abstract.
+Understanding how land use and urban morphology influence urban heat islands (UHIs) is essential for climate-resilient cities. While many remote sensing studies examine UHIs using limited seasonal observations, this study investigates how moisture, built-up density, and structural complexity influence localized thermal environments across four seasons and five land-use classes. Utilizing satellite imagery from 2016 to 2025 in Gangseo, Seoul, South Korea, I executed stratified regression analyses across five land-use classifications: Urban, Dense Urban, Roads, Nature, and Water. The modeling framework integrated Land Surface Temperature (LST) from Landsat 8 and normalized per image, optical spectral indices (NDVI, NDBI, NDWI) from Sentinel-2 and Synthetic Aperture Radar (SAR) texture metric (VH/VV Ratio) from Sentinel-1, which is sensitive to both moisture and building geometry.
+Results demonstrate that UHI drivers vary seasonally, with NDBI associated with higher median temperatures in urban areas, successfully capturing the UHI effect (p<0.01). NDWI was associated with lower median temperatures in the summer, fall, and spring, namely through vegetation and water (p<0.01). SAR VH/VV backscatter ratio didn’t differ with daily rainfall data with any land usages, suggesting that SAR was more sensitive to building structure rather than moisture. Summer had the highest overall explanatory power (R² = 0.84), with other high explanatory powers in the fall (R² = 0.61) and spring (R² =0.71). These results demonstrate the importance of seasonal, multi-variable analysis for understanding urban heat dynamics and supporting climate-resilient urban planning.
+
 
 ## About this template
+This template was generated as part of NASA's pursuit of Open Science and to create a public, reproducible analysis of my data workflow. These files begin from Google Earth Engine image collection, to Python statistical analysis and data cleaning, to the creation of all tables and graphs I utilized in my paper. 
 
-This template was generated as an example for how to format and upload project code to github. Remember that uploading your code can be an interative process - it doesn't have to be perfect the first time! First focus on getting your code online, then move onto progressively organizing the code. Once you reach the cleaning stage some things to look for include:
-
-- Make sure each chunk of code has a comment or markdown explanation of what is happening in the code
-- Delete code that isn't ever used. It can be hard (emotionally), but it helps the code you are using be more useful.
-- Break your project code into a few different notebooks by analysis step and name them starting with a number. For example: `01_preprocessing.ipynb`, `02_timeseries_analysis.ipynb` and `03_visualization.ipynb`.
-- Keep seperate folders for code and figures
-
-To get even deeper into code cleaning, check out the [Good Research Code Handbook](https://goodresearch.dev/index.html).
-
-Some notes:
 - ## AI Assistance Disclosure
-Parts of this repository were developed with the assistance of artificial intelligence.
-* **Tool Used:** 
-* **Purpose:** Used for 
-* **Human Role:** All AI-generated code was reviewed, refactored, and tested by the repository author.
+ChatGPT and Google Gemini were used in order to develop and troubleshoot Python scripts for data extraction, statistical regression, and visualization. After using these tools, the author manually reviewed and validated all code outputs and takes full responsibility for the integrity and accuracy of the data analysis and the content of this publication."
