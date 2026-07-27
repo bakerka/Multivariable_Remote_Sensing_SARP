@@ -12,6 +12,8 @@ Results demonstrate that UHI drivers vary seasonally, with NDBI associated with 
 This template was generated as part of NASA's pursuit of Open Science and to create a public, reproducible analysis of my data workflow. These files begin from Google Earth Engine image collection, to Python statistical analysis and data cleaning, to the creation of all tables and graphs I utilized in my paper. 
 
 ## Google Earth Engine
+Includes the Following:
+- 
 
 ## Python
 
