@@ -9,13 +9,32 @@ Results demonstrate that UHI drivers vary seasonally, with NDBI associated with 
 
 
 ## About this template
-This template was generated as part of NASA's pursuit of Open Science and to create a public, reproducible analysis of my data workflow. These files begin from Google Earth Engine image collection, to Python statistical analysis and data cleaning, to the creation of all tables and graphs I utilized in my paper. 
+This template was generated as part of NASA's pursuit of Open Science and to create a public, reproducible analysis of my data workflow. These files begin from Google Earth Engine image collection, to Python statistical analysis and data cleaning, to the creation of all tables and graphs I utilized in my paper. This code can be repurposed for other study areas. 
 
-## Google Earth Engine
+When using Google Earth Engine, make sure you have the necessary imports. When using python, please execute the code blocks in order.
+
+## Google Earth Engine##
 Includes the Following:
-- 
+- Site Selection
+- Landsat 8 Scaling and Cloud Cover
+- Annual Median Composite Images
+- Random Forest Training (80/20)
+- Random Forest Classification
+- Sentinel 1 and 2 Processing
+- NDWI, NDBI (Sentinel 2), LST (Landsat 8), VH, VV (Sentinel 1) Calculations
+- Multi-Sensor Table Export Sorted by Sentinel 2 Data
+
+Imports:
+- Seoul Municipality Map by Lucy Park (https://github.com/southkorea/seoul-maps)
+- USGS Landsat 8 Level 2, Collection 2, Tier 1 (USGS)
+- Harmonized Sentinel-2 MSI: MultiSpectral Instrument, Level-2A (SR) (European Union/ESA/Copernicus)
+- Cloud Score+ S2_HARMONIZED V1 (Google Earth Engine)
+- Sentinel-1 SAR GRD: C-band Synthetic Aperture Radar Ground Range Detected, log scaling (European Union/ESA/Copernicus)
+- Land Usage Polyglon Points (500 Total, 100 per land use)
 
 ## Python
+Includes the Following:
+- 
 
 ## AI Assistance Disclosure
 ChatGPT and Google Gemini were used in order to develop and troubleshoot Google Earth Engine and Python scripts for data extraction, statistical regression, and visualization. After using these tools, the author manually reviewed and validated all code outputs and takes full responsibility for the integrity and accuracy of the data analysis and the content of this publication.
