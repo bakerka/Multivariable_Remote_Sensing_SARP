@@ -11,7 +11,8 @@ Results demonstrate that UHI drivers vary seasonally, with NDBI associated with 
 ## About this template
 This template was generated as part of NASA's pursuit of Open Science and to create a public, reproducible analysis of my data workflow. These files begin from Google Earth Engine image collection, to Python statistical analysis and data cleaning, to the creation of all tables and graphs I utilized in my paper. This code can be repurposed for other study areas. 
 
-When using Google Earth Engine, make sure you have the necessary imports. When using python, please execute the code blocks in order.
+1. Run Google Earth Engine first. When using Google Earth Engine, make sure you have the necessary imports.
+2. Download the Exported Files into Python. It is reccomended to save all files into a folder then move the folder to python. When using python, please execute the first code block, and the rest should work independent of each other.
 
 ## Google Earth Engine
 Includes the Following:
@@ -44,6 +45,36 @@ Includes the Following:
 - Regression Statistics
 - Rainfall Data Spearman Correlation with VH/VV and NDWI (Rainfall CSV Required)
 - Image Counts by Year and Season 
+
+Packages Used:
+- pandas
+- glob
+- os
+- seaborn
+- matplotlib.pyplot
+- statsmodels.stats.outliers_influence
+- statsmodels.tools.tools
+- numpy
+- statsmodels.formula.api
+- sklearn.linear_model
+- itertools
+- sklearn.metrics
+- scipy.stats
+
+## Acknowledgments
+* **NASA SARP 2026** - Hydrology West Group
+* NASA Early Career Research Program
+* Dr. Mehmet Kurum and Mashalle Olomi - For guidance and support throughout the project.
+* Rachel Wegener and Alex Saunders - For teaching me how to code and make code accessible. 
+
+
+## Contact
+**Kira Baker** 
+* LinkedIn: [https://www.linkedin.com/in/kira-baker-27b7a5367/]
+
+## Citation
+If you use this code or data in your research, please cite this repository:
+> Baker, K (2026). Seasonal and Land-Use Influences on Urban Heat Island Drivers: A Multi-Sensor Assessment in Gangseo, Seoul. NASA Student Airborne Research Program. GitHub. [Link to your GitHub repo]
 
 ## AI Assistance Disclosure
 ChatGPT and Google Gemini were used in order to develop and troubleshoot Google Earth Engine and Python scripts for data extraction, statistical regression, and visualization. After using these tools, the author manually reviewed and validated all code outputs and takes full responsibility for the integrity and accuracy of the data analysis and the content of this publication.
