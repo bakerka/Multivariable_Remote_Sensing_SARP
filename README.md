@@ -13,7 +13,7 @@ This template was generated as part of NASA's pursuit of Open Science and to cre
 
 When using Google Earth Engine, make sure you have the necessary imports. When using python, please execute the code blocks in order.
 
-## Google Earth Engine##
+## Google Earth Engine
 Includes the Following:
 - Site Selection
 - Landsat 8 Scaling and Cloud Cover
@@ -34,7 +34,16 @@ Imports:
 
 ## Python
 Includes the Following:
-- 
+- Data Cleaning and Creation of Master CSV File
+- Pearson's Correlation and VIF
+- Linear Validation of Regression
+- Multiple Linear Regression
+- LST Bar Graphs
+- NDWI and LST_Difference Scatterplots
+- NDBI and LST_Difference Scatterplots
+- Regression Statistics
+- Rainfall Data Spearman Correlation with VH/VV and NDWI (Rainfall CSV Required)
+- Image Counts by Year and Season 
 
 ## AI Assistance Disclosure
 ChatGPT and Google Gemini were used in order to develop and troubleshoot Google Earth Engine and Python scripts for data extraction, statistical regression, and visualization. After using these tools, the author manually reviewed and validated all code outputs and takes full responsibility for the integrity and accuracy of the data analysis and the content of this publication.
